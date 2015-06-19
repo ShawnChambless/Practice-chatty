@@ -1,0 +1,1 @@
+"use strict";angular.module("chattyApp").controller("MainCtrl",function(a){a.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]});

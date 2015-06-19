@@ -1,0 +1,1 @@
+"use strict";angular.module("chattyApp").controller("MessageCtrl",function(e,s){e.messages=s.getMessages().then(function(s){e.messages=s,console.log("GOT "+s)}),e.addMessage=function(){s.addMessage(e.newMessage).then(function(s){e.messages=s,e.newMessage="",console.log("Added "+s)})}});
